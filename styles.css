@@ -24,6 +24,40 @@ h1, h2, h3, h4 {
 a {
   text-decoration: none;
 }
+.banner .btn-secondary {
+  background-color: #4f46e5;
+  color: #fff;
+  padding: 12px 28px;
+  border-radius: 8px;
+  font-weight: 600;
+  text-decoration: none;
+  display: inline-block;
+  transition: all 0.3s ease;
+  transform: scale(1);
+}
+
+.banner .btn-secondary:hover  {
+  background-color: #4338ca;i
+  transform: scale(1.05); 
+  box-shadow: 0 8px 20px rgba(29, 24, 131, 0.4); 
+}
+ .nav .btn-primary {
+  background-color: #4f46e5;
+  color: #fff;
+  padding: 12px 28px;
+  border-radius: 8px;
+  font-weight: 600;
+  text-decoration: none;
+  display: inline-block;
+  transition: all 0.3s ease;
+  transform: scale(1);
+}
+
+ .nav .btn-primary:hover  {
+  background-color: #4338ca;
+  transform: scale(1.05); 
+  box-shadow: 0 8px 20px rgba(29, 24, 131, 0.4); 
+}
 
 /* Container */
 .container {
